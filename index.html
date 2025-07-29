@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thief Tracker - Your Security Solution</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="hero-bg-fluid">
+    <!-- <header class="navbar-fluid py-2">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-6 col-lg-2 text-lg-start">
+            <img src="images/logo.svg" alt="Thief Tracker logo" height="44">
+          </div>
+
+          <div class="col-12 col-lg-5 d-flex justify-content-center align-items-center p-3">
+            <ul class="nav d-flex flex-row flex-nowrap align-items-center gap-2 mb-0">
+              <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Pricing</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Contact&nbsp;Us</a></li>
+
+              <li class="nav-item dropdown" data-bs-theme="dark">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="flase">
+                  Features
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Feature 1</a></li>
+                  <li><a class="dropdown-item" href="#">Feature 2</a></li>
+                  <li><a class="dropdown-item" href="#">Feature 3</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+
+          <div class=" button-grp col-12 col-lg-5 text-lg-end text-end mt-2 py-1">
+            <a href="login.html" class="btn btn-primary me-2 btn-sm">LOGIN</a>
+            <a href="sign_up.html" class="btn btn-secondary me-2 btn-sm">SIGN UP</a>
+          </div>
+        </div>
+      </div>
+    </header> -->
+
+
+
+    <header class="navbar-fluid">
+      <div class="container py-0">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-lg text-start container navbar-dark">
+              <a class="navbar-brand" href="landingpage.html">
+                <img src="images/logo.svg" alt="Thief Tracker logo" height="44">
+              </a>
+
+              <!-- Toggle button for mobile -->
+              <button class="navbar-toggler me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <!-- Collapsible content -->
+              <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact&nbsp;Us</a>
+                  </li>
+                  <li class="nav-item dropdown" data-bs-theme="dark">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Features
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Feature 1</a></li>
+                      <li><a class="dropdown-item" href="#">Feature 2</a></li>
+                      <li><a class="dropdown-item" href="#">Feature 3</a></li>
+                    </ul>
+                  </li>
+                </ul>
+
+                <!-- Login/Signup Buttons -->
+                <div class="d-flex gap-3">
+                  <a href="login.html" class="btn btn-primary btn-sm">LOGIN</a>
+                  <a href="sign_up.html" class="btn btn-secondary btn-sm">SIGN UP</a>
+                </div>
+              </div>
+            </nav>
+
+            <!--Bootstrap offcanvas -->
+            <div class="offcanvas offcanvas-start bg-dark text-white" tabindex="-1" id="mobileMenu">
+              <div class="offcanvas-header">
+                <img src="images/logo.svg" alt="Thief Tracker logo">
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav text-start mx-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Contact&nbsp;Us</a>
+                  </li>
+                  <li class="nav-item dropdown" data-bs-theme="dark">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Features
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Feature 1</a></li>
+                      <li><a class="dropdown-item" href="#">Feature 2</a></li>
+                      <li><a class="dropdown-item" href="#">Feature 3</a></li>
+                    </ul>
+                  </li>
+                </ul>
+                <div class="button-grp d-flex col-7 flex-column gap-2 mt-3">
+                  <a href="login.html" class="btn btn-primary btn-sm">LOGIN</a>
+                  <a href="sign_up.html" class="btn btn-secondary btn-sm">SIGN UP</a>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+
+
+
+
+    <section>
+      <div class="hero-sec-fliud">
+        <div class="container">
+          <div class="row">
+            <div class="col col-lg-7 text-lg-start text-center mt-5">
+              <h1>Thief Tracker: <br>Your Security Solution</h1>
+              <p>Track your device, capture intruders, and control <br> your phone remotely, all with ease.</p>
+            </div>
+            <div class="Button col-12">
+              <a href="#" class="btn btn-view">View Dashboard</a>
+            </div>
+          </div>
+        </div>
+    </section>
+  </div>
+
+  <section>
+    <div class="hero-sec2-fliud">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div
+            class="landingimg2 d-flex justify-content-center align-items-center d-lg-block col-12 col-lg-4 order-1 order-lg-0 ">
+            <img src="images/landingimg2.png" alt="landingimg2">
+          </div>
+          <div class="intro col-xl-7 col-lg-7 col-12 order-0 order-lg-1">
+            <h2>What is Thief Tracker?</h2>
+            <p>Thief Tracker is a powerful web-based security system <br>that connects with your phone to help you
+              recover it in <br> case of theft or loss. Once activated, it silently captures <br> your phone’s location
+              and intruder photos, and sends <br> alerts straight to your dashboard — giving you full <br> remote
+              control.
+              <br><br>You don’t need to install anything. If your phone is <br>stolen, just log in here and take charge.
+            </p>
+            <div class="try-it col-lg-7 col-12 align-items-center">
+              <a href="#" class="btn btn-now">TRY IT NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="features-fliud">
+      <div class="container">
+        <div class="row">
+          <div class="smintro col-12 col-lg-11 text-center">
+            <h1>Explore Our Cutting-Edge Features</h1>
+            <p>Thief Tracker offers advanced features designed to provide maximum security for your <br> device. Stay
+              informed and in control with real-time updates and alerts.</p>
+          </div>
+
+          <div class="features col-lg-11 text-center p-5">
+            <div class="row justify-content-center">
+
+              <div class="gps col-lg-3">
+                <img src="images/gps 1.png" alt="dws">
+                <h6>GPS TRACKING</h6>
+                <p>Track your device's <br>location in real-time.</p>
+              </div>
+
+              <div class="photo col-lg-3">
+                <img src="images/camera 1.png" alt="dws">
+                <h6>Intruder Photo <br> Capture</h6>
+                <p>Get photo evidence <br> when someone tries to <br> unlock your phone.</p>
+              </div>
+
+              <div class="format col-lg-3">
+                <img src="images/settings (1) 1.png" alt="dws">
+                <h6>Remote Device <br> Control</h6>
+                <p>Erase all your personal <br> data remotely to keep <br> your sensitive <br> information safe.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="pricing">
+            <h3>Pricing Plans</h3>
+            <p>Choose the plan that fits your needs best.</p>
+          </div>
+          <div class="col-lg-12 text-center py-5">
+            <div class="billing-toggle col-lg-2">
+              <button class="toggle-option active" id="monthly">Monthly</button>
+              <button class="toggle-option" id="yearly">Yearly</button>
+            </div>
+          </div>
+
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-10 plan-card text-center">
+              <h4>Free Plan</h4>
+              <h2>$0</h2>
+              <ul class="feature">
+                <li> <img src="images/check-mark 1.png" alt="check-mark"> Real-time GPS Tracking</li>
+                <li> <img src="images/check-mark 1.png" alt="check-mark"> Email Alert</li>
+                <li> <img src="images/check-mark 1.png" alt="check-mark"> Intruder Photo Capture</li>
+              </ul>
+              <a href="#" class="btn btn-GetStarted">Get Started </a>
+            </div>
+
+
+            <div class="col-lg-4 col-10 plan-card text-center">
+              <h4>Premium Plan</h4>
+              <h2>$5</h2>
+              <ul class="feature">
+                <li> <img src="images/check-mark 1.png" alt="check-mark"> Remote Device Control</li>
+              </ul>
+              <button class="btn btn-GetStarted2">Get Started</button>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <script>
+    const monthlyBtn = document.getElementById('monthly');
+    const yearlyBtn = document.getElementById('yearly');
+
+    monthlyBtn.addEventListener('click', () => {
+      monthlyBtn.classList.add('active');
+      yearlyBtn.classList.remove('active');
+    });
+
+    yearlyBtn.addEventListener('click', () => {
+      yearlyBtn.classList.add('active');
+      monthlyBtn.classList.remove('active');
+    });
+
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+    integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
