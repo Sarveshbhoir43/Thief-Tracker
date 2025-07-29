@@ -4,8 +4,8 @@
  }
 
  .row img {
-     width: 80px;
-     height: 50px;
+     width: 100px;
+     height: 100px;
  }
 
  .form-control {
@@ -33,11 +33,11 @@
 
  .signup {  
      margin-left: 250px;
+     padding-top: 20px;
  }
 
  .signup .bannerform {
      background: linear-gradient(135deg, #0f2027, #203a43, #010e13);
-     /* backdrop-filter: blur(10px); */
      border-radius: 12px;
      padding: 20px;
      border: 1px solid #ffffff1a;
@@ -99,8 +99,6 @@
      cursor: pointer;
      font-size: 1rem;
  }
-
-
 
  .btn-primary {
      color: #1565C0;
