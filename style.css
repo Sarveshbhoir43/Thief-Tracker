@@ -46,9 +46,7 @@ body {
 
 .navbar-brand img {
     width: 100px;
-    /* Makes it scale to its container */
     height: 50px;
-    /* Maintains aspect ratio */
     margin-top: 0px;
 }
 
@@ -160,7 +158,6 @@ body {
 .hero-sec2-fliud {
     background-color: #000000;
     color: white;
-    /* Optional: for readability */
 }
 
 .landingimg2 img {
