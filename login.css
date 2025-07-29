@@ -9,8 +9,8 @@
     align-items: center;
 } */
  .row img {
-     width: 80px;
-     height: 50px;
+     width: 100px;
+     height: 100px;
  }
 
  .form-control {
@@ -36,7 +36,7 @@
      color: #ffffff;
  }
 
- .bannerform {
+ .login .bannerform {
      background: linear-gradient(135deg, #0f2027, #203a43, #010e13);
      /* background: rgba(255, 255, 255, 0.05); */
      backdrop-filter: blur(10px);
@@ -45,8 +45,14 @@
      border: 1px solid rgba(255, 255, 255, 0.1);
      color: #fff;
      height: 400px;
-
+     margin-left: 100px;
  }
+
+ .login{  
+     margin-left: 250px;
+     padding-top: 40px;
+ }
+
 
  .login input:hover {
      border-color: #0366fc;
@@ -96,6 +102,7 @@
      border-radius: 5px;
      border-width: 2px;
      padding: 2px 60px;
+     margin-left: 0px;
  }
 
  .btn-primary:hover {
