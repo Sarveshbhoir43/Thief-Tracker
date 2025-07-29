@@ -13,9 +13,7 @@
 
     #mobileMenu.offcanvas-start {
         width: 70% !important;
-        /* or 300px, 100vw, etc. */
         max-width: 100vw;
-        /* Optional: make sure it doesn't go beyond screen */
         height: 580px;
     }
 
@@ -25,28 +23,19 @@
         height: 50px;
     }
 
-
-    /* Resize toggle button */
     .navbar-toggler {
-
         width: 60px;
         height: 50px;
         padding: 8px;
         border: none;
-        /* removes the border */
         box-shadow: none !important;
-        /* removes any outline/glow */
-        padding: 0.25rem;
-        /* optional: reduce padding */
+        padding: 10px;
         background-color: transparent;
-        /* optional: keep background clean */
     }
 
     .navbar-brand img {
         width: 100px;
-        /* Makes it scale to its container */
         height: 50px;
-        /* Maintains aspect ratio */
         margin-top: 0px;
         margin-left: 20px;
     }
@@ -89,7 +78,6 @@
 
     #mobileMenu .navbar-nav .nav-item {
         padding-bottom: 18px;
-        /* or any spacing you like */
     }
 
     .row h1 {
@@ -181,9 +169,11 @@
         max-height: 300px;
     } */
 
-    
 
-     /* signup page media */
+
+    /* signup page media */
+
+
     .signup {
         margin-top: 20px;
         margin-left: 0px;
@@ -197,10 +187,11 @@
         padding-top: 0px;
     }
 
-   .signup .bannerform {
+    .signup .bannerform {
         margin-top: 0px;
-        width: 100%;   
+        width: 100%;
         height: auto;
+        margin-left: 0px;
     }
 
     .signup h4 {
@@ -220,58 +211,61 @@
         margin-left: 0px;
     }
 
+    .eyeicon1,
+    .eyeicon2 {
+        right: 0px;
+    }
 
 
 
-.gps{
-    margin-left: 0px;
-}
-
-.gps h6{
-font-size: 20px;
-margin-top: 15px;
-}
-
-.gps p{
-font-size: 16px;
-margin-left: 0px;
-margin-top: 15px;
-margin-bottom: 50px;
-}
-
-.photo{
-    margin-left: 0px;
-}
-
-.photo h6{
-font-size: 20px;
-margin-top: 15px;
-}
-
-.photo p{
-font-size: 16px;
-margin-left: 0px;
-margin-top: 15px;
-margin-bottom: 50px;
-}
-
-.format{
-    margin-left: 0px;
-}
-
-.format h6{
-font-size: 20px;
-margin-top: 15px;
-}
-
-.format p{
-font-size: 16px;
-margin-left: 0px;
-margin-top: 15px;
-}
 
 
+    .gps {
+        margin-left: 0px;
+    }
 
+    .gps h6 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .gps p {
+        font-size: 16px;
+        margin-left: 0px;
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+
+    .photo {
+        margin-left: 0px;
+    }
+
+    .photo h6 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .photo p {
+        font-size: 16px;
+        margin-left: 0px;
+        margin-top: 15px;
+        margin-bottom: 50px;
+    }
+
+    .format {
+        margin-left: 0px;
+    }
+
+    .format h6 {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+
+    .format p {
+        font-size: 16px;
+        margin-left: 0px;
+        margin-top: 15px;
+    }
 }
 
 @media (min-width: 1200px) {
