@@ -135,6 +135,7 @@
         align-items: center;
         flex-direction: column;
         min-height: 100vh;
+        
     }
 
     .row .login {
@@ -142,9 +143,10 @@
     }
 
     .login .bannerform {
-        margin-top: 0;
+        margin-top: 0px;
         width: 100%;
         height: auto;
+        margin-left: 0px;
     }
 
     .login h4 {
@@ -266,6 +268,9 @@
         margin-left: 0px;
         margin-top: 15px;
     }
+
+
+
 }
 
 @media (min-width: 1200px) {

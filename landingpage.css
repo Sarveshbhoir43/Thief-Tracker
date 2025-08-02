@@ -1,0 +1,225 @@
+/* General Styling */
+:root {
+    --primary-blue: #007bff; /* Example blue, adjust as needed */
+    /* --dark-blue: #0a192f; Dark background color, adjust as needed */
+    --light-text: #ffffff;
+    --gray-text: #cccccc;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif; /* Or your preferred font */
+}
+
+body {
+    background-color: var(--dark-blue);
+    color: var(--light-text);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Navbar */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.4); /* Slightly transparent background */
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    display: flex;
+    align-items: center;
+    color: var(--light-text);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .logo img {
+    height: 30px; /* Adjust logo size */
+    margin-right: 10px;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin-left: 30px;
+}
+
+.navbar nav ul li a {
+    color: var(--gray-text);
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.navbar nav ul li a:hover {
+    color: var(--light-text);
+}
+
+.navbar .auth-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar .login-btn {
+    background-color: transparent;
+    color: var(--primary-blue);
+    border: 1px solid var(--primary-blue);
+}
+
+.navbar .login-btn:hover {
+    background-color: var(--primary-blue);
+    color: var(--light-text);
+}
+
+.navbar .signup-btn {
+    background-color: var(--primary-blue);
+    color: var(--light-text);
+}
+
+.navbar .signup-btn:hover {
+    background-color: #0056b3; /* Darker shade for hover */
+}
+
+/* Hero Section */
+.hero-section {
+    position: relative;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    overflow: hidden; /* Hide overflowing parts of the background image */
+    background: url('background-image.jpg') no-repeat center center/cover; /* Replace with your background image */
+    /* Add an overlay to darken the background image */
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.7); /* Adjust darkness as needed */
+}
+
+/* Overlay for the background image if using a single image for both effects */
+.hero-section::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 70%, rgba(0,0,0,0) 100%);
+    z-index: 1;
+}
+
+.hero-section .container {
+    display: flex;
+    align-items: center;
+    position: relative; /* To bring content above the overlay */
+    z-index: 2;
+}
+
+.hero-content {
+    max-width: 600px; /* Adjust content width */
+    padding-right: 40px; /* Space from the right edge if there's an image */
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    line-height: 1.1;
+}
+
+.hero-content p {
+    font-size: 18px;
+    color: var(--gray-text);
+    margin-bottom: 30px;
+}
+
+.hero-content .dashboard-btn {
+    background-color: var(--primary-blue);
+    color: var(--light-text);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hero-content .dashboard-btn:hover {
+    background-color: #0056b3;
+}
+
+/* The figure on the right and the camera could be part of the background image
+   or separate absolutely positioned elements if you need more control.
+   For simplicity, I'm assuming they are part of the main background image. */
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+   <!-- <body>
+    <header class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="thief_tracker_logo.png" alt="Thief Tracker Logo"> <span>THIEF TRACKER</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Feature</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="login-btn">Login</button>
+                <button class="signup-btn">Sign Up</button>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero-section" style="background-image: url('langingpage.jpg');">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Thief Tracker: <br>Your Security Solution</h1>
+                <p>Thief Tracker is your ultimate mobile security system, designed to keep your phone safe. With real-time tracking and remote control features, you can track, capture, and control your device from anywhere.</p>
+                <button class="dashboard-btn">View Dashboard</button>
+            </div>
+            <div class="hero-image">
+                </div>
+        </div>
+    </section>
+
+    </body> -->
